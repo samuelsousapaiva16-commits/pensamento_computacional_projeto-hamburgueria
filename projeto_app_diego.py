@@ -30,4 +30,41 @@ if escolha == '1':
     email = input('Digite seu email: ')
     senha = input('Digite sua senha: ')
     print('Conta cadastrada com sucesso
+
+          elif escolha == '2':
+    print('selecionar itens do cardápio')
+    print('1. hambúrguer')
+    print('2. batata frita')
+    print('3. refrigerante')
+    item = input('Digite o número do item que deseja: ')
+    print('Item selecionado com sucesso!')
+
+elif escolha == '3':
+    print('Pedido finalizado com sucesso!')
+
+elif escolha == '4':
+    print('seu pedido está sendo preparado...')
+ 
+elif escolha == '5':
+    print('Seu pedido saiu para entrega!')
+
+elif     escolha == '6':
+        print('Seu pedido foi entregue!')
+
+elif escolha == 0:
+    print('Saindo do sistema até logo...')
+    break
+    
+    ✨ elif escolha == '0':
+    print('Saindo do sistema. Até logo!')
+    break
+
+
+
+else:
+    print("Opção inválida. Por favor, tente novamente.")
+
+
+
+          
     
